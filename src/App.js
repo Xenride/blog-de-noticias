@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   consultaNoticias = () => {
-    let url = 'http://newsapi.org/v2/top-headlines?country=us&apiKey=ff34651b80964e12b6e947a3b97a9d26'
+    let url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=ff34651b80964e12b6e947a3b97a9d26'
     fetch(url) 
     .then(respuesta => {
       return respuesta.json();
